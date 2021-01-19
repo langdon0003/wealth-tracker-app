@@ -1,12 +1,16 @@
 {
-  "name": "wealth-tracking-app",
-  "version": "0.0.0",
+  "name": "wealth-tracker-app",
+  "version": "0.1.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build"
   },
   "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "moment": "^2.29.1",
     "vue": "^3.0.5",
+    "vue-cryptoicon": "^0.1.7",
     "vue-router": "^4.0.3"
   },
   "devDependencies": {
