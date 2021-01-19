@@ -88,32 +88,11 @@
 import { onMounted, onUpdated, onUnmounted } from "vue";
 import axios from "axios";
 
-// import { getPredictions } from "../services/axios.js";
 
 export default {
   setup() {
     onMounted(() => console.log("object :>> "));
-    // onMounted(
-    //   () =>
-    //     axios({
-    //       method: "GET",
-    //       url:
-    //         "http://cors-anywhere.herokuapp.com/https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?limit=10",
-    //       headers: {
-    //         "X-CMC_PRO_API_KEY": "b9f6274c-8ce4-42a8-8b77-c12f55a58122",
-    //       },
-    //     }).then((res) => console.log("res 1 :>> ", res.data))
-    // axios({
-    //   method: "GET",
-    //   url:
-    //     "http://cors-anywhere.herokuapp.com/https://api.coinlore.net/api/tickers?limit=6",
-    // }).then((res) => console.log("res 1 :>> ", res.data))
-    // );
-    // onMounted(() =>
-    //   axios
-    //     .get("https://services.intotheblock.com/api/BTC/predictions")
-    //     .then((res) => console.log("res 1 :>> ", res.data))
-    // );
+    
   },
 };
 </script>
